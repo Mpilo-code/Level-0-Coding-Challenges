@@ -1,4 +1,4 @@
-public class MyClass {
+public class Program {
     public static void main(String args[]) {
   
      double x, y, z, a, b;
