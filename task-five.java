@@ -1,7 +1,10 @@
+import java.util.*;
+
 public class Program {
     public static void main(String args[]) {
         
       double here = calculateArea(5, 3, 4);
+      System.out.println(here);
       
     }
     
