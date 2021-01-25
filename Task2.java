@@ -1,4 +1,4 @@
-public class Program {
+public class Task2 {
     public static void main(String args[]) {
   
      double x, y, z, a, b;
