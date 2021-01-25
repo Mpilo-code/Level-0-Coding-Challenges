@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Program {
+public class Task7 {
     public static void main(String args[]) {
         
       double tempInFah = metricToImperialTemp(25);
