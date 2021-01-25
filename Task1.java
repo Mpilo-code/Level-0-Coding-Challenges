@@ -1,7 +1,12 @@
-public class Program {
+public class Task1 {
     public static void main(String args[]) {
-  
-    int x,y;
+ 
+     code();
+    }
+    
+    public static void code() {
+     
+     int x,y;
      x = 0;
      y = 1;
      
@@ -13,6 +18,5 @@ public class Program {
      
      System.out.println(x);
      System.out.println(y);
-     
     }
 }
