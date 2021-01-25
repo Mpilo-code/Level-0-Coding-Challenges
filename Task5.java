@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Program {
+public class Task5 {
     public static void main(String args[]) {
         
       double here = calculateArea(5, 3, 4);
