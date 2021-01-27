@@ -4,31 +4,34 @@ public class Task10 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		ArrayList<String> commonChars = CommonCharacters("house" , "computers");
-		System.out.println(commonChars);
-		
+     
+	commonChar("house" , "computers");
+	
 	}
 	
-	public static ArrayList<String> CommonCharacters(String str1 , String str2) {
+	 public static void commonChar(String str1, String str2) {
 		
-	    ArrayList<String> commonChars = new ArrayList<String>(); 
+	 String Output;
+        String common = "";
 		
 		for(int i = 0 ; i < str1.length() ; i++) {
 			for(int k = 0 ; k < str2.length() ; k++) {
 				
 				if(Character.toString(str1.charAt(i)).equalsIgnoreCase(Character.toString(str2.charAt(k)))) {
-				    commonChars.add(Character.toString(str1.charAt(i)));
+				    
+                    Output = Character.toString(str1.charAt(i));
+
+
+                    common += Output + ",";
 				
 				}
 				
 			}
 		}
 		
-		
-		
-	    return commonChars;
-		
+	common = common.substring(0,common.length()-1);
+	System.out.print("Common letters: " + common);
+        
 	}
 
-}   
+} 
